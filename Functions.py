@@ -94,8 +94,8 @@ def ShowPlayers():
 
     # for Player in Players:
     #     print(f"{Player} avec {Players[Player]}% de chances de donner une bonne réponse")
-    for PlayerName, PlayerChance in Var.Players.items():
-        
+
+    for PlayerName, PlayerChance in Var.Players.items():      
         IsFirstPlayer = ""
         # teste s'il s'agit du 1er joueur
         if PlayerName == Var.CurrentPlayer:

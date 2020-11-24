@@ -4,7 +4,8 @@
 import random
 
 # variables
-# liste des joueurs (dictionnaire)
+# liste des joueurs
+# (dictionnaire avec clé = nom du joueur, valeur = pourcentage de chance de donner une bonne réponse)
 Players = {
     "Matthéo" : 85,
     "Alain" : 80,
